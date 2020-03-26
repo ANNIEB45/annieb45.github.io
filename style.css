@@ -9,10 +9,20 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
+    margin: 40px;
+    border-top: 3px solid black;
 }
 
 .footer a{
+    display: flex;
     text-decoration: none;
     color: black;
     font-weight: 700;
+    padding: 20px;
+    background: gray;
+    border-right: 1px solid white;
+}
+
+.footer a:hover{
+    color: blue
 }
