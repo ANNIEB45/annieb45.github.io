@@ -51,7 +51,7 @@ section.article{
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    margin: 35px;
+    margin: 60px;
     
 }
 .article p{
@@ -66,15 +66,16 @@ section.article{
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-    margin: 40px;
+    margin: 55px;
     border-top: 3px solid black;
 }
 
 .footer a{
+    font-family: 'Permanent Marker', cursive;
     display: flex;
     text-decoration: none;
     color: black;
-    opacity: 0.9;
+    opacity: 0.8;
     padding: 20px;
     background: gray;
 }
