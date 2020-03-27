@@ -16,16 +16,38 @@ body {
     font-family: 'Kalam', cursive;
     color: black;
     text-decoration: none;
-    font-size: 20px;
-    font-weight: 300;
+    font-size: 25px;
+    font-weight: 300; 
 }
 
 .nav a:hover{
     color: green
 }
+
+.wrapper{
+    display: flex;
+    width: 100%;
+}
+
+.main{
+    flex: 2;
+}
+
+.aside{
+    flex: 1;
+    border: 1px solid gray;
+    margin: 50px 0 20px 0;
+    padding: 450px 0;
+}
+
+.aside section{
+
+}
+
 .intro{
     background-image: url(https://images.unsplash.com/photo-1511649475669-e288648b2339?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80);
-    background-size: cover;
+    background-size: cover; 
+    
 }
 
 .intro img{
@@ -34,15 +56,24 @@ body {
     margin: 0 0 400px 0;
 }
 
+
 .intro p{
     font-family: 'Permanent Marker', cursive;
     font-size: 45px;
     text-align: center;
+    text-transform: lowercase;
+    padding: 50px 0;
 }
 
+section.article{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
 .article p{
     font-family: 'Kalam', cursive;
-
+    
 }
 
 
