@@ -96,10 +96,23 @@ section.article{
     margin: 60px;
     
 }
-.article p{
+.article p {
     font-family: 'Kalam', cursive;
     font-size: 30px;
     text-align: justify;
+    opacity: 0.8;
+
+}
+
+.article h2{
+    font-family: 'Kalam', cursive;
+    font-size: 30px;
+    text-align: justify; 
+    margin: 0 60px 0 0;
+}
+
+h2::first-letter{
+    font-size: 60px;
 }
 
 * {box-sizing: border-box}
