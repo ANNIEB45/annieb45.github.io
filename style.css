@@ -1,7 +1,30 @@
 body {
+    width: 85%;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
+.intro{
+    background-image: url(https://images.unsplash.com/photo-1511649475669-e288648b2339?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80);
+    background-size: cover;
+}
+
+.intro img{
+    max-width: 100%;
+    height: auto;
+    margin: 0 0 400px 0;
+}
+
+.intro p{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 45px;
+    text-align: center;
+}
+
+.article p{
+    font-family: 'Kalam', cursive;
+
+}
 
 
 
@@ -20,9 +43,8 @@ body {
     font-weight: 700;
     padding: 20px;
     background: gray;
-    border-right: 1px solid white;
 }
 
 .footer a:hover{
-    color: blue
+    color: green;
 }
